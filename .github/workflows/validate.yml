@@ -1,0 +1,20 @@
+name: Validate
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+
+jobs:
+  validate-questions:
+    name: Validate Questions
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+
+      - name: Validate
+        run: npx ajv-cli@3.2.1 -s questions_schema.json -d questions.json

@@ -1,4 +1,5 @@
 {
+  "$schema": "https://mccq.github.io/database/questions_schema.json",
   "questions": [
     {
       "tags": ["player", "item", "amount"],
