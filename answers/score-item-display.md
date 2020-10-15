@@ -1,6 +1,6 @@
 Using scores on items is a bit more difficult. For security reasons you can't use the score text component in item NBT.
 
-We can use the `set_name` and `set_lore` functions in a loot table.
+You can use the `set_name` and `set_lore` functions in a loot table.
 ```json
 {
   "pools": [
@@ -33,7 +33,7 @@ We can use the `set_name` and `set_lore` functions in a loot table.
 }
 ```
 
-Now we can use the `loot` command to get the item in the game.
+Now you can use the `loot` command to get the item in the game.
 ```mcfunction
 loot give @a loot <loot table>
 ```

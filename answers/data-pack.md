@@ -29,9 +29,9 @@ This is the general layout of a data pack.
 ```
 
 ### Setup
-We start by creating a folder `<data pack name>` inside the `datapacks` folder of our world. You can give this any name.
+Start by creating a folder `<data pack name>` inside the `datapacks` folder of your world. You can give this any name.
 
-Now we create the `pack.mcmeta` file.
+Now create the `pack.mcmeta` file.
 ```json
 {
   "pack": {

@@ -34,9 +34,9 @@ This is the general layout of a resource pack.
 ```
 
 ### Setup
-We start by creating a folder `<resource pack name>` inside the `.minecraft/resourcepacks`. You can give this any name. [Don't know where you can find this folder?](https://minecrafthopper.net/help/finding-minecraft-data-folder/)
+Start by creating a folder `<resource pack name>` inside the `.minecraft/resourcepacks`. You can give this any name. [Don't know where you can find this folder?](https://minecrafthopper.net/help/finding-minecraft-data-folder/)
 
-Now we create the `pack.mcmeta` file.
+Now create the `pack.mcmeta` file.
 ```json
 {
   "pack": {
