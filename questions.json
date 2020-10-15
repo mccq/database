@@ -2,7 +2,7 @@
   "$schema": "https://mccq.github.io/database/questions_schema.json",
   "questions": [
     {
-      "tags": ["player", "item", "amount"],
+      "tags": ["player", "item"],
       "question": "How do I detect players with X amount of items?",
       "answer": "@players-amount-items"
     },
@@ -12,39 +12,58 @@
       "answer": "@raycasting"
     },
     {
-      "tags": ["datapack"],
-      "question": "How do I make a datapack?",
-      "answer": "@creating-a-datapack"
+      "tags": ["data pack"],
+      "question": "How do I make a data pack?",
+      "answer": "@data-pack"
     },
     {
-      "tags": ["tag", "difference"],
+      "tags": ["data pack"],
+      "question": "How do I make a resource pack?",
+      "answer": "@resource-pack"
+    },
+    {
       "question": "What is the difference between all the tags?",
       "answer": "@tags-disambiguation"
     },
     {
-      "tags": ["tps"],
       "question": "What does TPS mean?",
       "answer": "TPS means **ticks per second**."
     },
     {
-      "tags": ["mspt"],
       "question": "What does MSPT mean?",
       "answer": "MSPT means **milliseconds per tick**."
     },
     {
-      "tags": ["score", "entity"],
       "question": "How can I detect an entity without a score?",
       "answer": "@without-score"
     },
     {
-      "tags": ["datapack", "function", "install"],
       "question": "Can I run a function after installing a data pack?",
       "answer": "@datapack-install-function"
     },
     {
-      "tags": ["open", "chest", "container"],
+      "tags": ["block", "container"],
       "question": "How can I detect when a player opens a chest?",
-      "answer": "You can detect this using the `minecraft.custom:minecraft.open_chest`, but you cannot detect which chest was opened."
+      "answer": "You can detect this using the `minecraft.custom:minecraft.open_chest`. To detect which chest was opened, you need to use [raycasting](@raycasting)"
+    },
+    {
+      "tags": ["advancement"],
+      "question": "How do I detect if a certain mob attacks the player?",
+      "answer": "You can use an advancement with the `entity_hurt_player` trigger."
+    },
+    {
+      "tags": ["schedule", "delay", "sleep"],
+      "question": "How do I run a command after some time has passed?",
+      "answer": "@schedule"
+    },
+    {
+      "tags": ["custom model data", "texture"],
+      "question": "How can I add a custom item to the game?",
+      "answer": "@custom-item"
+    },
+    {
+      "question": "How do I use a score in the name or lore of an item?",
+      "answer": "@score-item-display"
     }
   ]
 }

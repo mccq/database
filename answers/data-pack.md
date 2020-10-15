@@ -6,7 +6,7 @@ This is the general layout of a data pack.
 📁 datapacks
 | 📁 <data pack name>
 | | 📄 pack.mcmeta (required)
-| | 📁data
+| | 📁 data
 | | | 📁 minecraft
 | | | | 📁 tags
 | | | | | 📁 functions
@@ -35,7 +35,7 @@ Now we create the `pack.mcmeta` file.
 ```json
 {
   "pack": {
-    "pack_format": 5,
+    "pack_format": 6,
     "description": "The description of your data pack"
   }
 }
