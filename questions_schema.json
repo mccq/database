@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema",
-  "$id": "https://mccq.github.io/database/questions_schema.json",
+  "$id": "https://mcfaq.github.io/database/questions_schema.json",
   "type": "object",
   "properties": {
     "questions": {
